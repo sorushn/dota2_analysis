@@ -5,7 +5,6 @@ Match history analysis for Valve Software's [Dota 2](dota2.com)
 
 ## Table of Contents
 
-
 * [Introduction](#introduction)
 * [Requirements](#requirements)
 * [Usage](#usage)
@@ -24,6 +23,8 @@ This project intends to be a framework for analysing match history data. It curr
 * MongoDB instance
 
 ## Usage
+
+For using the downloader utility, follow either of the following:
 
 ### Docker
 
