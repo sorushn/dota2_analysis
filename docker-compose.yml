@@ -1,0 +1,24 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8003:8003"
+    volumes:
+      - .:/app
+    command: python app/utils/download.py
+    depends_on:
+      - mongodb
+
+  mongodb:
+    image: mongo:4.0.7
+    ports:
+      - "27017:27017"
+    volumes:
+      - db:/data/db
+
+networks:
+  default:
+    driver: bridge
+
+volumes:
+  db: {}
