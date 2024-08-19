@@ -18,7 +18,7 @@ A Python script to download Dota match data from the OpenDota API.
 ## Introduction
 ------------
 
-This project provides a Python script to download Dota match data from the OpenDota API. The script uses the `requests` library to make API calls and the `pymongo` library to store the data in a MongoDB database.
+This project intends to provide a framework for analysing match history data. Currently it provides a Python script to download Dota match data from the OpenDota API. The script uses the `requests` library to make API calls and the `pymongo` library to store the data in a MongoDB database.
 
 ## Requirements
 ------------
@@ -30,7 +30,10 @@ This project provides a Python script to download Dota match data from the OpenD
 
 ## Usage
 -----
+### Docker
+use `docker-compose up -d` to run the containarized version
 
+### Python
 1. Clone the repository: `git clone https://github.com/your-username/dota-match-data-downloader.git`
 2. Install the required libraries: `pip install -r requirements.txt`
 3. Create a MongoDB instance and add the connection string to the `app/utils/db.py` file
