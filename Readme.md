@@ -1,9 +1,9 @@
 
 
 # Dota Match Data Downloader
-==========================
 
-A Python script to download Dota match data from the OpenDota API.
+
+Match history analysis for Valve Software's [Dota 2](dota2.com)
 
 ## Table of Contents
 -----------------
