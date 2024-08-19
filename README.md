@@ -28,7 +28,7 @@ For using the downloader utility, follow either of the following:
 
 ### Running using Docker
 
-use `docker-compose up -d` to run the containarized version
+use `docker-compose up -d` to run the containerized version
 
 ### Running using Python
 
