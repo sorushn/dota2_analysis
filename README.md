@@ -26,11 +26,11 @@ This project intends to be a framework for analysing match history data. It curr
 
 For using the downloader utility, follow either of the following:
 
-### Docker
+### Running using Docker
 
 use `docker-compose up -d` to run the containarized version
 
-### Python
+### Running using Python
 
 1. Clone the repository: `git clone https://github.com/your-username/dota-match-data-downloader.git`
 2. Install the required libraries: `pip install -r requirements.txt`
