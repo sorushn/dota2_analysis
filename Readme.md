@@ -18,7 +18,7 @@ Match history analysis for Valve Software's [Dota 2](dota2.com)
 ## Introduction
 ------------
 
-This project intends to provide a framework for analysing match history data. Currently it provides a Python script to download Dota match data from the OpenDota API. The script uses the `requests` library to make API calls and the `pymongo` library to store the data in a MongoDB database.
+This project intends to be a framework for analysing match history data. It currently provides a python script to download Dota match data from the OpenDota API
 
 ## Requirements
 ------------
